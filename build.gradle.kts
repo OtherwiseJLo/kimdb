@@ -22,6 +22,9 @@ dependencies {
     testImplementation("io.kotest:kotest-runner-junit5-jvm:latest.release") // for kotest framework
     testImplementation("io.kotest:kotest-assertions-core-jvm:latest.release") // for kotest core jvm assertions
     testImplementation("io.kotest:kotest-property-jvm:latest.release") // for kotest property test
+
+    implementation("org.postgresql:postgresql:42.2.12") //Sql Driver
+
 }
 
 configure<JavaPluginConvention> {
