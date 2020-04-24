@@ -1,2 +1,2 @@
 # kimdb
-IMDB learnig project using Kotlin
+IMDB learning project using Kotlin
